@@ -34,3 +34,4 @@ Projeyi çalıştırmak için Docker ve Docker Compose kullanacağız. Aşağıd
 
 Projenin performans karşılaştırması, MPI ve OpenMP'nin paralel veri işleme üzerindeki etkilerini gözler önüne seriyor. MPI ile düğümler arasında veri paylaşımı yapılırken, OpenMP her düğümdeki çok çekirdekli işlem gücünü kullanarak verilerin daha hızlı işlenmesini sağlar. Yapılan testlerde, OpenMP'nin tek bir düğümde çalıştırıldığı durumlarda verimliliği artırdığı gözlemlenmiştir. Ancak, MPI'nin düğümler arası veri paylaşımı sağlama kapasitesi, daha büyük veri setleriyle çalışırken OpenMP'den daha iyi performans göstermektedir.
 
+![alt text](image.png)
